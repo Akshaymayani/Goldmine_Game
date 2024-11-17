@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { } from '../App.css';
+import '../App.css';
 import Grid_cell from './Grid_cell';
 function GameGrid() {
     const [data, setData] = useState<(number | boolean)[]>([]);
